@@ -22,15 +22,41 @@
 
 // console.log(nod(14, 20));
 
-3. Написать функцию для поиска максимальной цифры в числе.
+// 3. Написать функцию для поиска максимальной цифры в числе.
 
-const maxNum = (numbers) => {
-  let stroke = numbers.toString().split("");
-  const first = Number(str[0]); 
-const secondNum = recursive(str.slice(1));
-};
+// const recursive = (number) => {
+//   const numString = number.toString();
+//   if (numString.length === 1) {
+//     return number;
+//   } else {
+//     const firstDigit = Number(numString[0]);
 
-// console.log(maxNum(8937465934867539));
+//     const maxDigit = recursive(numString.slice(1));
+
+//     return firstDigit > maxDigit ? firstDigit : maxDigit;
+//   }
+// };
+
+// console.log(recursive(123456789));
+
+// 4. Написать функцию, которая определяет простое ли переданное число
+
+// const primeNumFunc = (number, divisor = 2) => {
+//   if (number <= 1) {
+//     return false;
+//   }
+//   if (divisor >= number) {
+//     return true;
+//   }
+
+//   if (number % divisor === 0) {
+//     return false;
+//   } else {
+//     return primeNumFunc(number, divisor + 1);
+//   }
+// };
+
+// console.log(primeNumFunc(7));
 
 // 5. Напиши функцию checkAge(age, callback), которая принимает возраст и
 // функцию обратного вызова.
